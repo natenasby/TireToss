@@ -11,5 +11,13 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    let tire = SKSpriteNode(imageNamed: "tire")
+    
+    func bounce(to view: SKView) {
+        
+        SKColor = white
+        
+        addChild(tire)
+    }
     
 }
