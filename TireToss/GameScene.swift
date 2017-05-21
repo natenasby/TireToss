@@ -13,11 +13,17 @@ class GameScene: SKScene {
     
     let tire = SKSpriteNode(imageNamed: "tire")
     
-    func bounce(to view: SKView) {
+    let tireX = 800
+    let tireY = 100
+    
+    override func didMove(to view: SKView) {
         
-        SKColor = white
-        
+        backgroundColor = SKColor.white
         addChild(tire)
+        
+        tire.position = CGPoint(x: tireX, y: tireY)
+        tire.setScale(0.2)
+        
     }
     
 }
