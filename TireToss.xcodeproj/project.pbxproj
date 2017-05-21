@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85202C31ED22ABF00C2D2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85202C21ED22ABF00C2D2F5 /* AppDelegate.swift */; };
+		D85202C51ED22ABF00C2D2F5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D85202C41ED22ABF00C2D2F5 /* GameScene.sks */; };
+		D85202C71ED22ABF00C2D2F5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D85202C61ED22ABF00C2D2F5 /* Actions.sks */; };
+		D85202C91ED22ABF00C2D2F5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85202C81ED22ABF00C2D2F5 /* GameScene.swift */; };
+		D85202CB1ED22ABF00C2D2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85202CA1ED22ABF00C2D2F5 /* ViewController.swift */; };
+		D85202CD1ED22ABF00C2D2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85202CC1ED22ABF00C2D2F5 /* Assets.xcassets */; };
+		D85202D01ED22ABF00C2D2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85202CE1ED22ABF00C2D2F5 /* Main.storyboard */; };
+		D85202DB1ED22ABF00C2D2F5 /* TireTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85202DA1ED22ABF00C2D2F5 /* TireTossTests.swift */; };
+		D85202E61ED22ABF00C2D2F5 /* TireTossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85202E51ED22ABF00C2D2F5 /* TireTossUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85202D71ED22ABF00C2D2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85202B71ED22ABF00C2D2F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85202BE1ED22ABF00C2D2F5;
+			remoteInfo = TireToss;
+		};
+		D85202E21ED22ABF00C2D2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85202B71ED22ABF00C2D2F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85202BE1ED22ABF00C2D2F5;
+			remoteInfo = TireToss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D85202BF1ED22ABF00C2D2F5 /* TireToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TireToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85202C21ED22ABF00C2D2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85202C41ED22ABF00C2D2F5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D85202C61ED22ABF00C2D2F5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D85202C81ED22ABF00C2D2F5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D85202CA1ED22ABF00C2D2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D85202CC1ED22ABF00C2D2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85202CF1ED22ABF00C2D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85202D11ED22ABF00C2D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85202D61ED22ABF00C2D2F5 /* TireTossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TireTossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85202DA1ED22ABF00C2D2F5 /* TireTossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TireTossTests.swift; sourceTree = "<group>"; };
+		D85202DC1ED22ABF00C2D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85202E11ED22ABF00C2D2F5 /* TireTossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TireTossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85202E51ED22ABF00C2D2F5 /* TireTossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TireTossUITests.swift; sourceTree = "<group>"; };
+		D85202E71ED22ABF00C2D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85202BC1ED22ABF00C2D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202D31ED22ABF00C2D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202DE1ED22ABF00C2D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85202B61ED22ABF00C2D2F5 = {
+			isa = PBXGroup;
+			children = (
+				D85202C11ED22ABF00C2D2F5 /* TireToss */,
+				D85202D91ED22ABF00C2D2F5 /* TireTossTests */,
+				D85202E41ED22ABF00C2D2F5 /* TireTossUITests */,
+				D85202C01ED22ABF00C2D2F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85202C01ED22ABF00C2D2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85202BF1ED22ABF00C2D2F5 /* TireToss.app */,
+				D85202D61ED22ABF00C2D2F5 /* TireTossTests.xctest */,
+				D85202E11ED22ABF00C2D2F5 /* TireTossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85202C11ED22ABF00C2D2F5 /* TireToss */ = {
+			isa = PBXGroup;
+			children = (
+				D85202C21ED22ABF00C2D2F5 /* AppDelegate.swift */,
+				D85202C41ED22ABF00C2D2F5 /* GameScene.sks */,
+				D85202C61ED22ABF00C2D2F5 /* Actions.sks */,
+				D85202C81ED22ABF00C2D2F5 /* GameScene.swift */,
+				D85202CA1ED22ABF00C2D2F5 /* ViewController.swift */,
+				D85202CC1ED22ABF00C2D2F5 /* Assets.xcassets */,
+				D85202CE1ED22ABF00C2D2F5 /* Main.storyboard */,
+				D85202D11ED22ABF00C2D2F5 /* Info.plist */,
+			);
+			path = TireToss;
+			sourceTree = "<group>";
+		};
+		D85202D91ED22ABF00C2D2F5 /* TireTossTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85202DA1ED22ABF00C2D2F5 /* TireTossTests.swift */,
+				D85202DC1ED22ABF00C2D2F5 /* Info.plist */,
+			);
+			path = TireTossTests;
+			sourceTree = "<group>";
+		};
+		D85202E41ED22ABF00C2D2F5 /* TireTossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D85202E51ED22ABF00C2D2F5 /* TireTossUITests.swift */,
+				D85202E71ED22ABF00C2D2F5 /* Info.plist */,
+			);
+			path = TireTossUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85202BE1ED22ABF00C2D2F5 /* TireToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85202EA1ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireToss" */;
+			buildPhases = (
+				D85202BB1ED22ABF00C2D2F5 /* Sources */,
+				D85202BC1ED22ABF00C2D2F5 /* Frameworks */,
+				D85202BD1ED22ABF00C2D2F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TireToss;
+			productName = TireToss;
+			productReference = D85202BF1ED22ABF00C2D2F5 /* TireToss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85202D51ED22ABF00C2D2F5 /* TireTossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85202ED1ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireTossTests" */;
+			buildPhases = (
+				D85202D21ED22ABF00C2D2F5 /* Sources */,
+				D85202D31ED22ABF00C2D2F5 /* Frameworks */,
+				D85202D41ED22ABF00C2D2F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85202D81ED22ABF00C2D2F5 /* PBXTargetDependency */,
+			);
+			name = TireTossTests;
+			productName = TireTossTests;
+			productReference = D85202D61ED22ABF00C2D2F5 /* TireTossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D85202E01ED22ABF00C2D2F5 /* TireTossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85202F01ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireTossUITests" */;
+			buildPhases = (
+				D85202DD1ED22ABF00C2D2F5 /* Sources */,
+				D85202DE1ED22ABF00C2D2F5 /* Frameworks */,
+				D85202DF1ED22ABF00C2D2F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85202E31ED22ABF00C2D2F5 /* PBXTargetDependency */,
+			);
+			name = TireTossUITests;
+			productName = TireTossUITests;
+			productReference = D85202E11ED22ABF00C2D2F5 /* TireTossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85202B71ED22ABF00C2D2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nathan Nasby";
+				TargetAttributes = {
+					D85202BE1ED22ABF00C2D2F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D85202D51ED22ABF00C2D2F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D85202BE1ED22ABF00C2D2F5;
+					};
+					D85202E01ED22ABF00C2D2F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D85202BE1ED22ABF00C2D2F5;
+					};
+				};
+			};
+			buildConfigurationList = D85202BA1ED22ABF00C2D2F5 /* Build configuration list for PBXProject "TireToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85202B61ED22ABF00C2D2F5;
+			productRefGroup = D85202C01ED22ABF00C2D2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85202BE1ED22ABF00C2D2F5 /* TireToss */,
+				D85202D51ED22ABF00C2D2F5 /* TireTossTests */,
+				D85202E01ED22ABF00C2D2F5 /* TireTossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85202BD1ED22ABF00C2D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85202C51ED22ABF00C2D2F5 /* GameScene.sks in Resources */,
+				D85202CD1ED22ABF00C2D2F5 /* Assets.xcassets in Resources */,
+				D85202C71ED22ABF00C2D2F5 /* Actions.sks in Resources */,
+				D85202D01ED22ABF00C2D2F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202D41ED22ABF00C2D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202DF1ED22ABF00C2D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85202BB1ED22ABF00C2D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85202CB1ED22ABF00C2D2F5 /* ViewController.swift in Sources */,
+				D85202C91ED22ABF00C2D2F5 /* GameScene.swift in Sources */,
+				D85202C31ED22ABF00C2D2F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202D21ED22ABF00C2D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85202DB1ED22ABF00C2D2F5 /* TireTossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85202DD1ED22ABF00C2D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85202E61ED22ABF00C2D2F5 /* TireTossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85202D81ED22ABF00C2D2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85202BE1ED22ABF00C2D2F5 /* TireToss */;
+			targetProxy = D85202D71ED22ABF00C2D2F5 /* PBXContainerItemProxy */;
+		};
+		D85202E31ED22ABF00C2D2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85202BE1ED22ABF00C2D2F5 /* TireToss */;
+			targetProxy = D85202E21ED22ABF00C2D2F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85202CE1ED22ABF00C2D2F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85202CF1ED22ABF00C2D2F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85202E81ED22ABF00C2D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85202E91ED22ABF00C2D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D85202EB1ED22ABF00C2D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D85202EC1ED22ABF00C2D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D85202EE1ED22ABF00C2D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TireToss.app/Contents/MacOS/TireToss";
+			};
+			name = Debug;
+		};
+		D85202EF1ED22ABF00C2D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TireToss.app/Contents/MacOS/TireToss";
+			};
+			name = Release;
+		};
+		D85202F11ED22ABF00C2D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TireToss;
+			};
+			name = Debug;
+		};
+		D85202F21ED22ABF00C2D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TireTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanN.TireTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TireToss;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85202BA1ED22ABF00C2D2F5 /* Build configuration list for PBXProject "TireToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85202E81ED22ABF00C2D2F5 /* Debug */,
+				D85202E91ED22ABF00C2D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85202EA1ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85202EB1ED22ABF00C2D2F5 /* Debug */,
+				D85202EC1ED22ABF00C2D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85202ED1ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireTossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85202EE1ED22ABF00C2D2F5 /* Debug */,
+				D85202EF1ED22ABF00C2D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85202F01ED22ABF00C2D2F5 /* Build configuration list for PBXNativeTarget "TireTossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85202F11ED22ABF00C2D2F5 /* Debug */,
+				D85202F21ED22ABF00C2D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85202B71ED22ABF00C2D2F5 /* Project object */;
+}
