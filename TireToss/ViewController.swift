@@ -12,27 +12,19 @@ import SpriteKit
 import GameplayKit
 
 class ViewController: NSViewController {
-
-    @IBOutlet var skView: SKView!
+    
+    // Pulls scene 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if let view = self.skView {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
+        let tireView = GameScene(size: view.bounds.size)
+        let skView = view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.ignoresSiblingOrder = true
+        tireView.scaleMode = .resizeFill
+        skView.presentScene(tireView)
     }
+
 }
 
